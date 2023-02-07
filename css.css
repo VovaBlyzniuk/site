@@ -1,0 +1,604 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* minimal css reset- убрал обычные стили гугла*/
+.WD{
+    position: absolute;
+     width:96px;
+      height: 60px;
+       left: 402px;
+        top: 50px;
+         color: #34547A;
+          font-family: 'Revalia';
+           font-style: normal;
+            font-weight: 400;
+             font-size: 48px;
+              line-height: 60px;
+               text-align: center;
+
+} 
+/* картинка WD
+*/
+.main{
+    position: absolute;
+     width: 84px;
+      height: 12px;
+       left: 896px;
+        top: 72px;
+         
+        font-family: 'Roboto';
+         font-style: normal;
+          font-weight: 500;
+           font-size: 16px;
+            line-height: 26px;
+             letter-spacing: 0.1em;
+              color: #34547A;
+}
+
+.aboutta{
+    position: absolute;
+     width: 100px;
+      height: 16px;
+       left: 1022px;
+        top: 72px;
+         
+         font-family: 'Roboto';
+          font-style: normal;
+           font-weight: 400;
+            font-size: 16px;
+             line-height: 26px;
+              letter-spacing: 0.1em; 
+               color:black;
+}
+.work{
+    position: absolute;
+     width: 74px;
+      height: 16px;
+       left: 1164px;
+        top: 72px; 
+         
+        font-family: 'Roboto';
+         font-style: normal;
+          font-size: 16px;
+           line-height: 26px;
+            letter-spacing: 0.1em;
+             color: black;
+
+}
+.process{
+    position: absolute;
+     width: 86px;
+      height: 16px;
+       left: 1280px;
+        top: 72px;
+         
+         font-family: 'Roboto';
+          font-style: normal;
+           font-weight: 400;
+            font-size: 16px;
+             line-height: 26px;
+              letter-spacing: 0.1em;
+               color:black
+}
+.contacts{
+    position: absolute;
+     width: 99px;
+      height: 16px;
+       left: 1408px;
+        top: 72px;
+         
+         font-family: 'Roboto';
+          font-style: normal;
+           font-weight: 400;
+            font-size: 16px;
+             line-height: 26px;
+              letter-spacing: 0.1em;
+               color:black
+}
+.frame{
+    position: absolute;
+     width: 357px;
+      height: 234px;
+       left: 487px;
+        top: 271px;
+          
+}
+.har{
+   position:absolute;
+    width: 541px;
+     height: 45px;
+      left: 974px;
+       top: 250px;
+         
+       font-family: 'Roboto';
+        font-style: normal;
+         font-weight: 500;
+          font-size: 48px;
+           line-height: 79px;
+            color:black
+}
+.text{
+    /* Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.*/
+    position: absolute;
+     width: 540px;
+      height: 67px;
+       left: 975px;
+        top: 355px;
+         
+         font-family: 'Roboto';
+          font-style: normal;
+           font-weight: 400;
+            font-size: 16px;
+             line-height: 26px;
+              color: #727272;
+           
+ }
+ .button{
+  position: absolute;
+   width: 225px;
+    height: 65px;
+     left: 975px;
+      top: 482px;
+      background:#34547A;
+     
+          
+          font-family: 'Roboto';
+           font-style: normal;
+            font-weight: 400;
+             font-size: 16px;
+              line-height: 26px;
+               text-align: center;
+                letter-spacing: 0.1em;
+                 color: white;
+ }
+#header{
+  position: absolute;
+   width: 1920px;
+    height: 700px;
+     left: 0px;
+      top: -7px;
+      background-color: #E5E5E5;
+}
+.background{
+  position: absolute;
+  width: 1920px;
+   height: 250px;
+    left: 0px;
+     top: 1059px;
+      background: #345A7A; 
+}
+.aboutme{
+  position: absolute;
+   width: 403px;
+    height: 30px;
+     left: 758px;
+      top: 812px;
+     
+       
+       font-family: 'Roboto';
+        font-style: normal;
+         font-weight: 500;
+          font-size: 32px;
+           line-height: 37.5px;
+            text-align: center;
+             color: black;
+}
+.text1{
+  position: absolute;
+   width: 540px;
+    height: 67px;
+     left: 690px;
+     top: 892px;
+
+       
+       font-family: 'Roboto';
+        font-style: normal;
+         font-weight: 400;
+          font-size: 16px;
+           line-height: 26px;
+            text-align: center;
+             color: #727272;
+}
+.ima1{
+  position: absolute;
+  top: 100px;
+   width: 141px;
+    height: 50px;
+     left: 405px;              
+}
+.ima2{
+  position: absolute;
+   top: 100px;
+    left: 595px;
+     width: 141px;
+      height: 50px;
+}
+.ima3{
+  position: absolute;
+   top: 100px;
+    left: 785px;
+     width: 141px;
+      height: 50px;      
+}
+.ima4{
+  position: absolute;
+   top: 100px;
+    left: 975px;
+     width: 141px;
+      height: 50px;      
+}
+.ima5{
+  position: absolute;
+   top: 100px;
+    width: 141px; 
+     height: 50px;
+      left: 1165px; 
+}
+.ima6{
+  position: absolute;
+  top: 100px;
+   width: 141px; 
+    height: 50px;
+     left: 1355px;   
+}
+.myskills{
+  position: absolute;
+  width: 403px;
+   height: 30px;
+    top: 1513px;
+     left: 386px;
+      
+      font-family: 'Roboto';
+       font-style: normal;
+        font-weight: 500;
+         font-size: 32px;
+          line-height:  38px;
+           color: black;
+}
+.Rectangle{
+  position: absolute;
+   width: 555px;
+    height: 450px;
+     top: 1411px;
+      left: 981px;
+       background: url(Rectangle3.png), #C4C4C4 ;      
+}
+.abobe{
+  position: absolute;
+   width: 128px;
+    height: 15px;
+     left: 387px;
+      top: 1593px;
+       
+       font-family: 'Roboto';
+        font-style: normal;
+         font-weight: 400;
+          font-size:16px;
+           line-height: 26px;
+            color: #727272;
+
+}
+.abobe2{
+  position: absolute;
+   width: 128px;
+    height: 15px;
+     left: 387px;
+      top: 1662px;
+
+       font-family: 'Roboto';
+        font-style: normal;
+         font-weight: 400;
+          font-size: 16px;
+           line-height: 26px;
+            color: #727272;
+ }
+.abobe3{
+  position: absolute;
+  width: 128px;
+   height: 15px;
+    left: 387px;
+     top: 1731px;
+
+      font-family: 'Roboto';
+       font-style: normal;
+        font-weight: 400;
+         font-size: 16px;
+          line-height: 26px;
+           color: #727272;
+           
+}
+.poloska{
+  position: absolute;
+    width: 349.36px;
+     height: 4px;
+      left: 386px;
+       top: 1628.24px;
+        background-color:#34547A;
+         transform: rotate(-0.06deg);
+}
+.poloska2{
+  position: absolute;
+   width: 350px;
+    height: 4px;
+     left: 386px;
+      top: 1697px;
+       background-color: #34547A;
+}
+.poloska3{
+   position: absolute;
+    width: 350px;
+     height: 4px;
+      left: 386px;
+       top: 1766px; 
+       background-color: #34547A;
+}
+.jobs{
+   position: absolute;
+    width: 403px;
+     height: 30px;
+      left: 758px;
+       top: 2062px;
+        
+        font-family: 'Roboto' ;
+         font-style: normal;
+          font-weight: 500;
+           font-size: 32px;
+            line-height: 38px;
+             text-align: center;
+              color: black;
+}
+.text2{
+   position: absolute;
+    width:540px;
+     height:67px ;
+      left:690px ;
+       top: 2142px;
+        
+        font-family: 'Roboto';
+         font-style: normal;
+          font-weight: 400;
+           font-size: 16px;
+            line-height: 26px;
+             text-align: center;
+              color: #727272;
+}
+.rec5{
+  position: absolute;
+   width: 1110px;
+    height: 600px;
+     left: 405px;
+      top: 2266px;   
+}
+.vector{
+  position: absolute;
+   width: 100px;
+    height: 100px;
+     left: 910px;
+      top: 2516px;  
+}
+.background2{
+  position: absolute;
+   width: 1920px;
+    height: 1004px;
+     left: 0px;
+     top: 1962px;
+       background: #EEEFF1;
+}
+.projects{
+   position: absolute;
+    width: 1920px;
+     height: 960px;
+      left: 0px;
+       top: 2994px;      
+}
+.clients{
+   position:absolute;
+    width: 1110px;
+     height: 120px;
+      left: 405px;
+       top: 4026px;        
+  }
+  .background3{
+     position:absolute;
+      width: 1920px;
+       height: 762px;
+        left: 0px;
+         top: 4246px;
+         background-color: #EEEFF1;
+  }
+  .web{
+     position:absolute;
+      width: 406px;
+       height: 30px;
+        left: 755px;
+         top: 4346px;
+          
+          font-family: 'Roboto';
+           font-style: normal;
+            font-size: 32px;
+             font-weight: 500;
+              line-height: 38px;
+               text-align: center;
+                color: black;
+}
+.text3{
+  position:absolute;
+   width: 540px;
+    height: 67px;
+     left: 690px;
+      top: 4426px;
+       
+       font-family: 'Roboto';
+        font-style: normal;
+         font-weight: 400;
+          font-size: 16px;
+           line-height: 26px;
+            text-align: center;
+             color: #727272;
+ }
+ .background4{
+   position:absolute;
+    width: 255px;
+     height: 50px;
+      left: 690px;
+       top: 4558px;
+        background-color: #FFFFFF;
+ }
+ .background5{
+   position:absolute;
+    width: 255px;
+     height: 50px;
+      left: 975px;
+       top: 4558px;
+        background-color: #FFFFFF;
+ }
+ .background6{
+   position: absolute;
+    width: 540px;
+     height: 175px;
+      left: 690px;
+       top: 4628px;
+        background-color: #FFFFFF;
+ }
+ .form_name{
+   position:absolute;
+    width: 74px;
+     height: 15px;
+      left: 710px;
+       top: 4575px;
+        
+        font-family: "Roboto";
+         font-style: normal;
+          font-weight: 400;
+           font-size: 14px;
+            line-height: 23px;
+             color: #5F5D5D;
+              border:none;
+ }
+ .form_name2{
+   position:absolute;
+    width: 74px;
+     height: 15px;
+      left: 995px;
+       top: 4575px;
+        
+        font-family: 'Roboto';
+         font-style: normal;
+          font-weight: 400;
+           font-size: 14px;
+            line-height: 23px;
+             color: #5F5D5D;
+              border:none;
+  }
+  .form_name3{
+     position: absolute;
+      width: 82px;
+       height: 15px;
+        left: 710px;
+         top: 4645px;
+          
+          font-family: 'Roboto';
+           font-style: normal;
+            font-weight: 400;
+             font-size: 14px;
+              line-height: 23px;
+               color: #5F5D5D;
+                border:none
+      }
+.send{
+  position: absolute;
+  width: 190px;
+   height: 55px;
+    left: 864px;
+     top: 4853px; 
+     background: #34547A;
+       
+       font-family: 'Roboto';
+        font-style: normal;
+         font-weight: 400;
+          font-size: 14px;
+           line-height: 23px;
+            text-align: center;
+             letter-spacing: 0.15em;
+              color:white;
+}
+.background7{
+   position:absolute;
+    width: 1920px;
+     height: 151px;
+      left: 0px;
+       top: 5008px;
+        background-color: #34547A;
+}
+.footer{
+   position: absolute;
+    width: 175px;
+     height: 40px;
+      left: 1356px;
+       top: 5064px;
+}
+.namev{
+   position: absolute;
+    height: 19px;
+     width: 130px;
+      left: 406px;
+       top: 5058px;
+         font-family: 'Roboto';
+          font-style: normal;
+           font-weight: 500;
+            font-size: 21px;
+             line-height: 25px;
+              color: white;
+      
+}
+.rights{
+   position: absolute;
+    width: 193px;
+     height: 12px;
+      left: 406px;
+       top: 5097px;
+        font-family: 'Roboto';
+         font-style: normal;
+          font-weight: 400;
+           font-size: 13px;
+            line-height: 21px;
+             color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
